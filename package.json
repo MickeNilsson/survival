@@ -4,7 +4,7 @@
   "description": "HTML5 2D survival game",
   "main": "./js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "http-server -a localhost -p 8000 -c-1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MickeNilsson/survival/issues"
   },
-  "homepage": "https://github.com/MickeNilsson/survival#readme"
+  "homepage": "https://github.com/MickeNilsson/survival#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
