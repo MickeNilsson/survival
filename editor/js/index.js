@@ -4,6 +4,8 @@
     var matrix = [];
     // Add all images to the modal.
     $.get('../assets/images/textureatlas.json', function(textureatlas){
+      
+      textureatlas = JSON.parse(textureatlas);
       console.dir(textureatlas);
       var images_s = '<tr>';
       var image_i = 0;
