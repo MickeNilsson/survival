@@ -41,7 +41,7 @@
       for(y = 0; y < numOfTilesY_i; y += 1){
         level_s += '<tr>';
         for(x = 0; x < numOfTilesX_i; x += 1){
-          level_s += '<td data-xy="' + x + '' + y + '" data-y="' + y + '" data-x="' + x + '"><img data-xy="' + x + '' + y + '" src="../assets/images/grass.png" /></td>';
+          level_s += '<td data-xy="' + x + '' + y + '" data-y="' + y + '" data-x="' + x + '"><img data-xy="' + x + '' + y + '" src="../assets/images/grass01.png" /></td>';
         }
         level_s += '</tr>';
       }
