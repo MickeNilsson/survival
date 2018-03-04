@@ -5,12 +5,13 @@
     // Add all images to the modal.
     $.get('../assets/images/textureatlas.json', function(textureatlas){
       
-      textureatlas = JSON.parse(textureatlas);
-      console.dir(textureatlas);
+      if(typeof textureatlas === 'string'){
+        textureatlas = JSON.parse(textureatlas);
+      }
       var images_s = '<tr>';
       var image_i = 0;
       for(var imageFilename_s in textureatlas.frames){
-        if(textureatlas.frames.hasOwnProperty(imageFilename_s) && imageFilename_s !== 'tree01.png'){
+        if(textureatlas.frames.hasOwnProperty(imageFilename_s)){
           images_s += '<td><img src="../assets/images/' + imageFilename_s + '" /></td>';
           image_i += 1;
           if(image_i > 8){
@@ -40,7 +41,7 @@
       for(y = 0; y < numOfTilesY_i; y += 1){
         level_s += '<tr>';
         for(x = 0; x < numOfTilesX_i; x += 1){
-          level_s += '<td data-xy="' + x + '' + y + '" data-y="' + y + '" data-x="' + x + '"><img data-xy="' + x + '' + y + '" src="../assets/images/x.png" /></td>';
+          level_s += '<td data-xy="' + x + '' + y + '" data-y="' + y + '" data-x="' + x + '"><img data-xy="' + x + '' + y + '" src="../assets/images/grass.png" /></td>';
         }
         level_s += '</tr>';
       }
@@ -55,6 +56,7 @@
       $('#tile-modal').modal('show');
     });
 
+    // Save the matrix in a JSON-object.
     $('#save-level').on('click',function(){
       $('#level tbody tr').each(function(index, td){
         console.log('index: ' + index);
@@ -62,7 +64,8 @@
         var temp_a = [];
         for(var i = 0; i < td.children.length; i += 1){
           var indexOfLastSlash_i = td.children[i].children[0].src.lastIndexOf('/');
-          var imageFilename_s = td.children[i].children[0].src.substring(indexOfLastSlash_i + 1);
+          var indexOfDotPng_i = td.children[i].children[0].src.indexOf('.png');
+          var imageFilename_s = td.children[i].children[0].src.substring(indexOfLastSlash_i + 1, indexOfDotPng_i);
           temp_a.push(imageFilename_s);
         }
         matrix.push(temp_a);

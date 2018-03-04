@@ -1,246 +1,471 @@
 {"frames": {
 
-"grass.png":
+"beach01.png":
 {
-	"frame": {"x":4,"y":4,"w":32,"h":32},
+	"frame": {"x":3,"y":3,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_down.png":
+"beach_grass01.png":
 {
-	"frame": {"x":40,"y":4,"w":32,"h":32},
+	"frame": {"x":38,"y":3,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_down_left.png":
+"beach_grass02.png":
 {
-	"frame": {"x":76,"y":4,"w":32,"h":32},
+	"frame": {"x":73,"y":3,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_down_left_right.png":
+"beach_grass03.png":
 {
-	"frame": {"x":4,"y":40,"w":32,"h":32},
+	"frame": {"x":3,"y":38,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_down_right.png":
+"beach_grass04.png":
 {
-	"frame": {"x":40,"y":40,"w":32,"h":32},
+	"frame": {"x":38,"y":38,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_flower.png":
+"beach_grass05.png":
 {
-	"frame": {"x":76,"y":40,"w":32,"h":32},
+	"frame": {"x":73,"y":38,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_flowers01.png":
+"beach_grass06.png":
 {
-	"frame": {"x":4,"y":76,"w":32,"h":32},
+	"frame": {"x":3,"y":73,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_flowers02.png":
+"beach_grass07.png":
 {
-	"frame": {"x":40,"y":76,"w":32,"h":32},
+	"frame": {"x":38,"y":73,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_flowers03.png":
+"beach_grass08.png":
 {
-	"frame": {"x":76,"y":76,"w":32,"h":32},
+	"frame": {"x":73,"y":73,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_left.png":
+"beach_grass09.png":
 {
-	"frame": {"x":4,"y":112,"w":32,"h":32},
+	"frame": {"x":3,"y":108,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_left_right.png":
+"beach_grass10.png":
 {
-	"frame": {"x":40,"y":112,"w":32,"h":32},
+	"frame": {"x":38,"y":108,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_right.png":
+"beach_grass11.png":
 {
-	"frame": {"x":76,"y":112,"w":32,"h":32},
+	"frame": {"x":73,"y":108,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_stone01.png":
+"beach_grass12.png":
 {
-	"frame": {"x":4,"y":148,"w":32,"h":32},
+	"frame": {"x":3,"y":143,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_stone02.png":
+"beach_grass13.png":
 {
-	"frame": {"x":40,"y":148,"w":32,"h":32},
+	"frame": {"x":38,"y":143,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_stone03.png":
+"beach_grass14.png":
 {
-	"frame": {"x":76,"y":148,"w":32,"h":32},
+	"frame": {"x":73,"y":143,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_stone04.png":
+"beach_grass15.png":
 {
-	"frame": {"x":4,"y":184,"w":32,"h":32},
+	"frame": {"x":3,"y":178,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_stubbe.png":
+"beach_grass16.png":
 {
-	"frame": {"x":40,"y":184,"w":32,"h":32},
+	"frame": {"x":38,"y":178,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up.png":
+"grass01.png":
 {
-	"frame": {"x":76,"y":184,"w":32,"h":32},
+	"frame": {"x":73,"y":178,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up_down.png":
+"water01.png":
 {
-	"frame": {"x":4,"y":220,"w":32,"h":32},
+	"frame": {"x":3,"y":213,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up_down_left.png":
+"water_beach01.png":
 {
-	"frame": {"x":40,"y":220,"w":32,"h":32},
+	"frame": {"x":38,"y":213,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up_down_left_right.png":
+"water_beach02.png":
 {
-	"frame": {"x":76,"y":220,"w":32,"h":32},
+	"frame": {"x":73,"y":213,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up_down_right.png":
+"water_beach03.png":
 {
-	"frame": {"x":4,"y":256,"w":32,"h":32},
+	"frame": {"x":3,"y":248,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up_left.png":
+"water_beach04.png":
 {
-	"frame": {"x":40,"y":256,"w":32,"h":32},
+	"frame": {"x":38,"y":248,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up_left_right.png":
+"water_beach05.png":
 {
-	"frame": {"x":76,"y":256,"w":32,"h":32},
+	"frame": {"x":73,"y":248,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"grass_up_right.png":
+"water_beach06.png":
 {
-	"frame": {"x":4,"y":292,"w":32,"h":32},
+	"frame": {"x":3,"y":283,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
 	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 },
-"tree01.png":
+"water_beach07.png":
 {
-	"frame": {"x":40,"y":292,"w":63,"h":85},
+	"frame": {"x":38,"y":283,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":85},
-	"sourceSize": {"w":63,"h":85},
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach08.png":
+{
+	"frame": {"x":73,"y":283,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach09.png":
+{
+	"frame": {"x":3,"y":318,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach10.png":
+{
+	"frame": {"x":38,"y":318,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach11.png":
+{
+	"frame": {"x":73,"y":318,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach12.png":
+{
+	"frame": {"x":3,"y":353,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach13.png":
+{
+	"frame": {"x":38,"y":353,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach14.png":
+{
+	"frame": {"x":73,"y":353,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach15.png":
+{
+	"frame": {"x":3,"y":388,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach16.png":
+{
+	"frame": {"x":38,"y":388,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass01.png":
+{
+	"frame": {"x":73,"y":388,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass02.png":
+{
+	"frame": {"x":3,"y":423,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass03.png":
+{
+	"frame": {"x":38,"y":423,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass04.png":
+{
+	"frame": {"x":73,"y":423,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass05.png":
+{
+	"frame": {"x":3,"y":458,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass06.png":
+{
+	"frame": {"x":38,"y":458,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass07.png":
+{
+	"frame": {"x":73,"y":458,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass08.png":
+{
+	"frame": {"x":3,"y":493,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass09.png":
+{
+	"frame": {"x":38,"y":493,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass10.png":
+{
+	"frame": {"x":73,"y":493,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass11.png":
+{
+	"frame": {"x":3,"y":528,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass12.png":
+{
+	"frame": {"x":38,"y":528,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass13.png":
+{
+	"frame": {"x":73,"y":528,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass14.png":
+{
+	"frame": {"x":3,"y":563,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass15.png":
+{
+	"frame": {"x":38,"y":563,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"water_beach_grass16.png":
+{
+	"frame": {"x":73,"y":563,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32},
 	"pivot": {"x":0.5,"y":0.5}
 }},
 "meta": {
-	"app": "http://www.codeandweb.com/texturepacker",
+	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "textureatlas.png",
 	"format": "RGBA8888",
-	"size": {"w":112,"h":381},
+	"size": {"w":108,"h":598},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:de72bda78e06d459219a11b5412f2a2a:a5843f827b5a10787a4a5d99a759f269:f9bd9f63f63bc90b071432fc145277dd$"
+	"smartupdate": "$TexturePacker:SmartUpdate:a38d22f6e1692429edaeaa3e48ef8fcd:e48aedc720453900de516d0cfe3db6e3:f9bd9f63f63bc90b071432fc145277dd$"
 }
 }
