@@ -12,6 +12,9 @@
     table#level tbody td:hover{
       border: 2px solid red;
     }
+    #saved-levels-ul{
+      cursor: pointer;
+    }
   </style>
   <title>Survival - Level Editor</title>
 </head>
@@ -28,14 +31,14 @@
         <form style="margin-bottom: 20px">
           <div class="form-group">
             <label for="x-tiles">Number of tiles wide</label>
-            <input id="x-tiles" class="form-control" type="number" min="1" max="1000" value="1" /> 
+            <input id="x-tiles" class="form-control" type="number" min="1" max="1000" value="1" style="width:80px;" /> 
           </div>
           <div class="form-group">
             <label for="y-tiles">Number of tiles high</label>
-            <input id="y-tiles" class="form-control" type="number" min="1" max="1000" value="1" /> 
+            <input id="y-tiles" class="form-control" type="number" min="1" max="1000" value="1" style="width:80px;" /> 
           </div>
           <input id="create-level" type="button" class="btn btn-primary" value="Create level" />
-          <input id="save-level" type="button" class="btn btn-primary" value="Save level" />
+          <input id="show-save-level-modal-button" type="button" class="btn btn-primary" value="Save level" />
         </form>
       </div>
     </div>
@@ -45,6 +48,12 @@
           <tbody></tbody>
         </table>
         <div id="json"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Saved levels</h2>
+        <ul id="saved-levels-ul"></ul>
       </div>
     </div>
   </div>
@@ -61,6 +70,27 @@
               
             </tbody>
           </table>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <div id="save-level-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Save level on server</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="level-name">Level name</label>
+              <input type="text" class="form-control" id="level-name" placeholder="Level name">
+            </div>
+            <input id="save-level-button" class="btn btn-primary" type="button" value="Save" />
+          </form>
         </div>
         <div class="modal-footer">
         </div>
