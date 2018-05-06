@@ -25,7 +25,6 @@ $('document').ready(function(){
 	// Get all saved levels.
 	$.get('http://www.digizone.se/survival/levels/get_levels.php')
 		.done(function(levels_o){
-			var savedLevels_a = [];
 			$.each(levels_o, function(levelName_s, level_a){
 				savedLevels_a[levelName_s] = JSON.parse(level_a);
 				$('#saved-levels-ul').append('<li>' + decodeURIComponent(levelName_s) + '</li>');
@@ -35,6 +34,7 @@ $('document').ready(function(){
 	// Load saved level into matrix.
 	$('#saved-levels-ul').on('click', 'li', function(e){
 		e.stopPropagation();
+		console.dir(savedLevels_a);
 	});
 
 	// Create new level with only grass tiles.
@@ -73,7 +73,7 @@ $('document').ready(function(){
 		$('#tile-modal').modal('hide');
 	});
 
-	// Open save level modal.
+	// Open "save level"-modal.
 	$('#show-save-level-modal-button').on('click', function(){
 		$('#save-level-status').html('');
 		$('#level-name').val('');
