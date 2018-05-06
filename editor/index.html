@@ -7,13 +7,28 @@
   <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
   <style>
     table#level tbody td{
-      padding: 0
+      padding: 0;
+      border: none;
+      margin: 0;
     }
-    table#level tbody td:hover{
+    table#level tbody td img{
+      border: 2px solid white;
+      margin: 0;
+    }
+    table#level tbody td img:hover{
       border: 2px solid red;
+      cursor: pointer;
     }
     #saved-levels-ul{
       cursor: pointer;
+    }
+    .tile{
+      border: 3px solid white;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .tile:hover{
+      border-color: red;
     }
   </style>
   <title>Survival - Level Editor</title>
@@ -57,6 +72,8 @@
       </div>
     </div>
   </div>
+
+  <!-- Tile modal -->
   <div id="tile-modal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -65,10 +82,9 @@
           <h4 class="modal-title">Tile</h4>
         </div>
         <div class="modal-body">
+          <div id="tiles"></div>
           <table class="table table-bordered">
-            <tbody>
-              
-            </tbody>
+            <tbody></tbody>
           </table>
         </div>
         <div class="modal-footer">
@@ -76,6 +92,8 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
+
+  <!-- Save level modal -->
   <div id="save-level-modal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -84,7 +102,8 @@
           <h4 class="modal-title">Save level on server</h4>
         </div>
         <div class="modal-body">
-          <form class="form-inline">
+          <div id="save-level-status"></div>
+          <form id="save-level-form" class="form-inline">
             <div class="form-group">
               <label for="level-name">Level name</label>
               <input type="text" class="form-control" id="level-name" placeholder="Level name">
