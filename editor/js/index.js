@@ -114,7 +114,7 @@ $('document').ready(function(){
 		};
 		$('#save-level-form').hide();
 		$('#save-level-status').html('Saving level...');
-		$.get('http://www.digizone.se/survival/levels/save_level.php', newLevel_o)
+		$.post('http://www.digizone.se/survival/levels/save_level.php', newLevel_o)
 			.done(function(response){
 				$('#save-level-status').html(response.status);
 				$('#save-level-modal').modal('show');
